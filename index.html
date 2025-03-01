@@ -3,32 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
+    <title>Grace Zawadi | Personal Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="./assets/logo.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <body>
-    <header>
-        <h1>Miss Grace Zawadi</h1>
+    <div class="background">
+        <img src="./assets/websitebackground.jpg" alt="Aesthetic background design">
+    </div>
+    
+    <header class="header">
+        <a href="#"><img src="./assets/logo.webp" alt="Logo" class="logo"></a>
         <nav>
-            <div>
-                <div class="logo">logo</div>
-            </div>
-           <ul>
-            <li><a href="Home">Home</a></li>
-            <li><a href="About">About me</a></li>
-            <li><a href="Contact">Contact</a></li>
-          </ul>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#moments">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>            
         </nav>
     </header>
-    <main>
-        <section>
+
+    <div class="container">
+        <section id="about" class="hero">
+            <img src="./assets/me.jpg" alt="Grace Zawadi picture">
             <div>
-                <div class="My profile">
-                  <h1>Welcome</h1>
-                <div class="Content">
-                   <h1>My name is Grace Zawadi</h1>
+                <h1>Miss Grace Zawadi</h1>
+                <p>Heyyy, I'm Grace Zawadi. I'm passionate about ministry, animals, art, and the beauty of the world around me. Whether it's capturing breathtaking views, expressing myself through creativity, or immersing myself in nature, I love documenting what inspires me. The images I share are from my own gallery, reflecting moments I've experienced. Welcome to my personal space, where I share a little piece of who I am.</p>
+                    <p>🌹'Abide in Me, and I in you. As the branch cannot bear fruit of itself, unless it abides in the vine, neither can you, unless you abide in Me.'(John 15:4) </p> 
             </div>
         </section>
-    </main>
+
+        <section id="moments" class="moments">
+            <h2>Gallery</h2>
+            
+            <div class="moments-category">
+                
+                <div class="grid">
+                    <img src="./assets/animal1.jpg" alt="Animal 1">
+                    <img src="./assets/animal2.jpg" alt="Animal 2">
+                    <img src="./assets/animal3.jpg" alt="Animal 3">
+                    <img src="./assets/animal4.jpg" alt="Animal 4">
+                    <img src="./assets/animal6.jpg" alt="Animal 5">
+                </div>
+            </div>
+
+            <div class="moments-category">
+            
+                <div class="grid">
+                    <img src="./assets/art1.jpg" alt="Art 1">
+                    <img src="./assets/art2.jpg" alt="Art 2">
+                    <img src="./assets/art3.jpg" alt="Art 3">
+                    <img src="./assets/church4.jpg" alt="Art 4">
+                    <img src="./assets/church3.jpg" alt="Art 5">
+                </div>
+            </div>
+
+            <div class="moments-category">
+                
+                <div class="grid">
+                    <img src="./assets/beauty1.jpg" alt="Beauty 1">
+                    <img src="./assets/beauty2.jpg" alt="Beauty 2">
+                    <img src="./assets/art4.jpg" alt="Beauty 3">
+                    <img src="./assets/art6.jpg" alt="Beauty 4">
+                    <img src="./assets/art5.jpg" alt="Beauty 5">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <div class="social-icons">
+                <a href="https://www.snapchat.com/add/itszawie2?share_id=OAmKmSx1sLw&locale=en-GB" target="_blank">
+                    <i class="fa-brands fa-snapchat"></i> Snapchat
+                </a>
+                <a href="https://www.instagram.com/g_zawie?igsh=dHVtcnhtcmVrZWZj" target="_blank">
+                    <i class="fa-brands fa-instagram"></i> Instagram
+                </a>
+            </div>
+            
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2025 Grace Zawadi. All rights reserved.
+    </footer>
 </body>
 </html>
